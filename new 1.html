@@ -1,0 +1,62 @@
+<html>
+    <head>
+<title>2a Mecatronica</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceyVc4_hM5CnX56URCLtiX23pLJ1O3emdHZcVFp4&s">
+</head>
+
+<body style="background-color:rgb(27, 26, 23);text-align: center;font-family: sans-serif;color:white ;" >
+    
+
+    <aside>
+      <p style="text-align: left;">I esta mamada no jala no le intenten poner cosas</p><br>
+      <p style="text-align: left;">V</p><br>
+        <form style="text-align: left;">
+            <label for="username">Username:</label>
+   <input type="text" id="username" name="username"><br><br>
+   <label for="password">Password:</label>
+   <input type="password" id="password" name="password"><br><br>
+   <input type="button" value="Submit" onclick="login()">
+   <script>
+    function login() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "login.php", true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.onreadystatechange = function() {
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+      // Redirect the user to the dashboard page upon successful login
+      window.location.href = "dashboard.html";
+    }
+  }
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  xhr.send(JSON.stringify({username: username, password: password}));
+}
+   </script>
+          </form> 
+
+            
+
+    </aside>
+    <h1 style="color:white">2A de Mecatronica del CBTis 7</h1>
+
+    <h4>Jean Saro, o Yin Sarro para los compas</h4>
+    <img src="yinyang.jpg" alt="fotoyian">
+
+
+
+     <h4 style="color:white">el culito rico del dahian 🥵</h4>
+     <img src="dahianculo.jpg" alt="sexo"style="width:400.3px;height:533.3">
+
+     <br>
+
+     <h4 style="color:white">aldebagod</h4>
+     <img src="aldebagod.jpg" alt="oomagad" style="width:290px;height: 387px;">
+
+     <br>
+
+     <p style="color:white">Copyright, Derechos Reservados LA PLEBADA DE 2A MECATRONICA GENERACION 2022-2025</p>
+
+     
+    
+</body>
+    </html>
