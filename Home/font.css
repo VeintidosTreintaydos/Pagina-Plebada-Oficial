@@ -1,9 +1,0 @@
-@font-face {
-    font-family: "fuente";
-    src: url("font.woff") format("woff");
-}
-
-* {
-    font-family: "fuente";
-    text-align: "center";
-}
