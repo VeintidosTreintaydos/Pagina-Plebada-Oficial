@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "normal";
+    src: url("font.woff") format("woff");
+}
+
+ @font-face{ 
+     font-family: "light";
+     src: url("font_light.woff");
+}
+
+* {
+    font-family: "normal";
+}
+
+h1 {
+    color: white;
+    font-family: "light";
+    margin-left: 5px
+}
+
+h2 {
+    color: #f1ecdc;
+    font-family: "light";
+    margin-left: 5px
+}
+
+.fixed-box {
+    position: fixed;
+    top: 0px;
+    max-width: 100%;
+    background-color: black;
+    margin-left: -10px
+}
+
+button {
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 98.1%;
+    transform: translate(-50%, -50%);
+}
