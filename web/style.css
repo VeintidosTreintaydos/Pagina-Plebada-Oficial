@@ -24,12 +24,15 @@ h2 {
     margin-left: 5px
 }
 
-.fixed-box {
+.home-bar {
+    background-color: black;
     position: fixed;
     top: 0px;
+    width: 100%;
+    height: 8%;
     max-width: 100%;
-    background-color: black;
-    margin-left: -10px
+    margin-left: -10px;
+    z-index: 1;
 }
 
 button {
@@ -41,35 +44,48 @@ button {
     transform: translate(-50%, -50%);
 }
 
-.dropbtn {
+.publicacion {
+    position: absolute;
+    background-color: white;
+    left: 35%;
+    top: 100px;
+    width: 35%;
+    height: 70%;
+    color: cadetblue;
+    object-fit: contain;
+}
+
+.imagen2 {
+    position: absolute;
     background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+    left: 10px;
+    top: 25px;
+    width: 95%;
+    height: 85%;
+    color: cadetblue;
+    object-fit:contain;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+button1 {
+    background-color: black;
+    position: absolute;
+    left: 10%;
+    top:90%; 
 }
 
-.dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: lightgrey;
-    min-width: 200px;
-    z-index: 1;
+button2 {
+    background-color: black;
+    position: absolute;
+    right: 10%;
+    top: 90%;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+
+p1 {
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    vertical-align: top;
+    margin: 10px;
+    top: 1%;
 }
-
-.dropdown-content a:hover {background-color: white;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: grey;}
-
