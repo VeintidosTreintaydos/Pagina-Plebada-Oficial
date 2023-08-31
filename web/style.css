@@ -12,6 +12,17 @@
     font-family: "normal";
 }
 
+.home-bar {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 8%;
+    max-width: 100%;
+    margin-left: -10px;
+    z-index: 1;
+}
+
 h1 {
     color: white;
     font-family: "light";
@@ -24,18 +35,8 @@ h2 {
     margin-left: 5px
 }
 
-.home-bar {
-    background-color: black;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 8%;
-    max-width: 100%;
-    margin-left: -10px;
-    z-index: 1;
-}
-
 button {
+    background-color: darkgray;
     width: 4%;
     height: 100%;
     position: absolute;
@@ -43,25 +44,47 @@ button {
     left: 98.1%;
     transform: translate(-50%, -50%);
 }
-
-.publicacion {
+.publicacion1 {
     position: absolute;
     background-color: white;
-    left: 35%;
-    top: 100px;
+    right: 10%;
+    top: 50 px;
     width: 35%;
     height: 70%;
     color: cadetblue;
     object-fit: contain;
 }
 
+.publicacion {
+    position: absolute;
+    background-color: white;
+    right: 5%;
+    top: 100px;
+    width: 35%;
+    height: 70%;
+    color: cadetblue;
+    object-fit: contain;
+}
+.pub-cuadro {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #f1deca;
+    right: 50%;
+    top: 240px;
+    width: 20%;
+    height: 30%;
+    color: cadetblue;
+    object-fit: contain;
+}
+
+
 .imagen2 {
     position: absolute;
     background-color: black;
-    left: 10px;
-    top: 25px;
-    width: 95%;
-    height: 85%;
+    left: 25px;
+    top: 30px;
+    width: 90%;
+    height: 80%;
     color: cadetblue;
     object-fit:contain;
 }
