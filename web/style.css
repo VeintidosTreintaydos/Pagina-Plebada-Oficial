@@ -29,6 +29,12 @@ h1 {
     margin-left: 5px
 }
 
+h3 {
+    color: black;
+    font-family: "light";
+    margin-left: 20px
+}
+
 h2 {
     color: #f1ecdc;
     font-family: "light";
@@ -44,63 +50,53 @@ button {
     left: 98.1%;
     transform: translate(-50%, -50%);
 }
-.publicacion1 {
-    position: absolute;
-    background-color: white;
-    right: 10%;
-    top: 50 px;
-    width: 35%;
-    height: 70%;
-    color: cadetblue;
-    object-fit: contain;
-}
 
 .publicacion {
     position: absolute;
     background-color: white;
-    right: 5%;
+    left: 50px;
     top: 100px;
-    width: 35%;
-    height: 70%;
+    width: 50%;
+    height: 60%;
     color: cadetblue;
     object-fit: contain;
 }
-.pub-cuadro {
-    transform: translate(-50%, -50%);
+.cambiar-imagen {
+    z-index: 1;
+    transform: translate(50%, 0%);
     position: absolute;
-    background-color: #f1deca;
     right: 50%;
-    top: 240px;
-    width: 20%;
-    height: 30%;
-    color: cadetblue;
-    object-fit: contain;
+    top: 50%;
+    width: 95%;
+    height: 25px;
+    color: white;
 }
 
 
-.imagen2 {
+.imagen {
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, -50%);
     position: absolute;
     background-color: black;
-    left: 25px;
-    top: 30px;
-    width: 90%;
+    right: 25px;
+    top: 50%;
+    width: 45%;
     height: 80%;
-    color: cadetblue;
-    object-fit:contain;
 }
 
 button1 {
-    background-color: black;
+    background-color:gray;
     position: absolute;
-    left: 10%;
-    top:90%; 
+    left: 10px;
+    top: ; 
 }
 
 button2 {
-    background-color: black;
-    position: absolute;
-    right: 10%;
-    top: 90%;
+    background-color: gray;
+    position:absolute;
+    right:10px;
+    top:;
 }
 
 
