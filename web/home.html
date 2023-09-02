@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="webpage icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e9e9e9; text-align: left; color: black;">
+
+    <div class="home-bar">
+        <h1>Plebada</h1>
+
+        <button type="button" onclick="location.href='menu.html'">Ir al menú</button>
+    </div>
+
+    <h2> texto que no deveria verse </h2>
+
+    <div class="precentacion">
+
+        <p> vinvinido al pelada </p>
+
+    </div>
+
+    <div class="publicacion">
+
+        <h3>El Jean</h3>
+
+        <p1>Jean al paso de los años</p1>
+
+        <div class="imagen">
+
+            <div class="cambiar-imagen">
+
+                <button1 onclick="document.getElementById('jean1').src='yinyang.jpg'"> < </button1>
+
+                <button2 onclick="document.getElementById('jean1').src='jean.PNG'"> > </button2>
+
+            </div>
+
+            <img id="jean1" src="yinyang.jpg" alt="Jean Saro" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+</div>
+
+    </div>
+
+    <div class="publicacion1">
+
+        <h3>Dahian</h3>
+
+        <p1>Toca al Dahian y algo pasará</p1>
+
+        <div class="imagen">
+
+            <div class="presiona-sonido">
+
+                <audio id="sound" src="kyaaa.mp3" preload="auto"> </audio>
+
+                <script>
+                    document.querySelector(".presiona-sonido").addEventListener("click", function () {
+                        document.querySelector("audio").play();
+                    });
+                </script>
+
+            </div>
+
+            <img class="dayan" src="dahianculo.jpg" alt="sexo" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <div class="publicacion2">
+
+        <h3>Aldebaran</h3>
+
+        <p1>Con filtro / Sin filtro</p1>
+
+        <div class="imagen">
+
+            <div class="cambiar-imagen">
+
+                <button1 onclick="document.getElementById('aldebaran').src='wapo.jpeg'"> < </button1>
+
+                <button2 onclick="document.getElementById('aldebaran').src='drogo.jpeg'"> > </button2>
+
+            </div>
+
+            <img id="aldebaran" src="wapo.jpeg" alt="Aldebaran" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div> 
+    
+    <div class="publicacion3">
+
+        <h3>Monocromatico</h3>
+
+        <p1>Mexichango y normal</p1>
+
+        <div class="imagen">
+
+            <img id="nw" src="monocromatico.jpeg" alt="ni..." object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html> 

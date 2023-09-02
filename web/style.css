@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "normal";
+    src: url("font.woff") format("woff");
+}
+
+ @font-face{ 
+     font-family: "light";
+     src: url("font_light.woff");
+}
+
+* {
+    font-family: "normal";
+}
+
+.home-bar {
+    z-index: 3;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    width: 100%;
+    height: 8%;
+    max-width: 100%;
+    margin-left: -10px;
+    font-size: 17px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 98.1%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-family: "light";
+    margin-left: 5px
+}
+
+h2 {
+    color: #f1ecdc;
+    font-family: "light";
+    margin-left: 5px
+}
+
+h3 {
+    color: black;
+    font-family: "light";
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+p1 {
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    vertical-align: top;
+    margin: 18px;
+    top: 1%;
+}
+
+.imagen {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, -50%);
+    position: absolute;
+    background-color: black;
+    right: 25px;
+    top: 50%;
+    width: 45%;
+    height: 90%;
+}
+
+.publicacion {
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 100px;
+    width: 50%;
+    height: 60%;
+    color: cadetblue;
+    object-fit: contain;
+}
+
+.publicacion1 {
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 600px;
+    width: 50%;
+    height: 60%;
+    color: cadetblue;
+    object-fit: contain;
+}
+
+.publicacion2 {
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 1100px;
+    width: 50%;
+    height: 60%;
+    color: cadetblue;
+    object-fit: contain;
+}
+.publicacion3 {
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 1600px;
+    width: 50%;
+    height: 60%;
+    color: cadetblue;
+    object-fit: contain;
+}
+
+.cambiar-imagen {
+    z-index: 2;
+    transform: translate(50%, -50%);
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 98%;
+    height: 25px;
+    color: white;
+}
+
+button1 {
+    background-color: gray;
+    position: absolute;
+    left: 10px;
+    font-size: 30px;
+    top:
+}
+
+button2 {
+    background-color: gray;
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    top:
+}
+
+.presiona-sonido {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
