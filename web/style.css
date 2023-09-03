@@ -80,39 +80,6 @@ p1 {
     position: absolute;
     background-color: white;
     left: 50px;
-    top: 100px;
-    width: 50%;
-    height: 60%;
-    color: cadetblue;
-    object-fit: contain;
-}
-
-.publicacion1 {
-    position: absolute;
-    background-color: white;
-    left: 50px;
-    top: 600px;
-    width: 50%;
-    height: 60%;
-    color: cadetblue;
-    object-fit: contain;
-}
-
-.publicacion2 {
-    position: absolute;
-    background-color: white;
-    left: 50px;
-    top: 1100px;
-    width: 50%;
-    height: 60%;
-    color: cadetblue;
-    object-fit: contain;
-}
-.publicacion3 {
-    position: absolute;
-    background-color: white;
-    left: 50px;
-    top: 1600px;
     width: 50%;
     height: 60%;
     color: cadetblue;
